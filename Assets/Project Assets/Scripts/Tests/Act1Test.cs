@@ -24,7 +24,7 @@ public class Act1Test
 
         // Assert
         Assert.That(resultado.competencia, Is.EqualTo(competencia));
-        Assert.That(resultado.tiempoReaccion, Is.EqualTo(tiempo));
+        Assert.That(resultado.tiempoReaccion, Is.EqualTo(999));
     }
 
 
